@@ -65,6 +65,8 @@
         break;
     }
 
+    top -= parentContainer.offsetTop;
+    left -= parentContainer.offsetLeft;
 
     container.style.left = left+'px';
     container.style.top = top+'px';
